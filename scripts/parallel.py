@@ -1,5 +1,5 @@
-from dotenv import load_dotenv
-import os
+# from dotenv import load_dotenv
+# import os
 import json
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -13,11 +13,13 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from threading import Thread
 
-load_dotenv()
-BROWSERSTACK_USERNAME = os.environ.get(
-    "BROWSERSTACK_USERNAME")
-BROWSERSTACK_ACCESS_KEY = os.environ.get(
-    "BROWSERSTACK_ACCESS_KEY")
+# load_dotenv()
+# BROWSERSTACK_USERNAME = os.environ.get(
+#     "BROWSERSTACK_USERNAME")
+# BROWSERSTACK_ACCESS_KEY = os.environ.get(
+#     "BROWSERSTACK_ACCESS_KEY")
+BROWSERSTACK_USERNAME = env.BROWSERSTACK_USERNAME
+BROWSERSTACK_ACCESS_KEY = env.BROWSERSTACK_ACCESS_KEY
 URL = "https://hub.browserstack.com/wd/hub"
 
 capabilities = [
