@@ -1,1 +1,9 @@
+name: Browser Stack Script
+
+on:
+  workflow_dispatch
+
+env:
+  username: ${{ secrets.BROWSER_STACK_USERNAME }}
+  access_key: ${{ secrets.BROWSER_STACK_ACCESS_KEY }}
 
