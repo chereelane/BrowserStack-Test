@@ -1,10 +1,5 @@
  pipeline {
-  agent {
-   docker {
-    image 'python:3'
-    label 'test-build'
-   }
-  }
+  agent
    stages {
        stage('setup') {
          steps {
