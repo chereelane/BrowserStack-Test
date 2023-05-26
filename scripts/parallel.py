@@ -1,5 +1,5 @@
 # from dotenv import load_dotenv
-# import os
+import os
 import json
 from selenium import webdriver
 from selenium.webdriver import ActionChains
