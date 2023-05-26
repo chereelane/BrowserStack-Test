@@ -14,8 +14,8 @@ from selenium.common.exceptions import NoSuchElementException
 from threading import Thread
 
 # load_dotenv()
-BROWSER_STACK_USERNAME = os.environ["username"]
-BROWSERSTACK_ACCESS_KEY = os.environ["access_key"]
+BROWSER_STACK_USERNAME = os.environ.get("username")
+BROWSERSTACK_ACCESS_KEY = os.environ.get("access_key")
 URL = "https://hub.browserstack.com/wd/hub"
 BROWSERSTACK_BUILD_NAME='build'
 
