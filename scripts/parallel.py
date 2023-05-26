@@ -21,6 +21,7 @@ from threading import Thread
 BROWSERSTACK_USERNAME = env.BROWSERSTACK_USERNAME
 BROWSERSTACK_ACCESS_KEY = env.BROWSERSTACK_ACCESS_KEY
 URL = "https://hub.browserstack.com/wd/hub"
+BROWSERSTACK_BUILD_NAME='build'
 
 capabilities = [
     {
