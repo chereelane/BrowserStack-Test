@@ -19,7 +19,7 @@ from threading import Thread
 # BROWSERSTACK_ACCESS_KEY = os.environ.get(
 #     "BROWSERSTACK_ACCESS_KEY")
 BROWSERSTACK_USERNAME = ${{ secrets.BROWSER_STACK_USERNAME }}
-BROWSERSTACK_ACCESS_KEY = ${{ vars.BROWSER_STACK_ACESS_KEY }}
+BROWSERSTACK_ACCESS_KEY = ${{ secrets.BROWSER_STACK_ACESS_KEY }}
 URL = "https://hub.browserstack.com/wd/hub"
 BROWSERSTACK_BUILD_NAME='build'
 
